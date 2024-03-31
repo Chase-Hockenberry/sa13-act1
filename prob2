@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: darkgreen;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .starters {
+            background-color: gold;
+            padding: 10px;
+        }
+        .mains {
+            background-color: red;
+            padding: 10px;
+        }
+        .desserts {
+            background-color: blue;
+            padding: 10px;
+        }
+        .price {
+            float: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Restaurant Menu
+    </header>
+    <section class="starters">
+        <h2>Starters</h2>
+        <ul>
+            <li>Salad<span class="price">$7.99</span></li>
+            <li>Bread<span class="price">$3.99</span></li>
+        </ul>
+    </section>
+    <section class="mains">
+        <h2>Mains</h2>
+        <ul>
+            <li>Spaghetti<span class="price">$10.99</span></li>
+            <li>Chicken Alfredo<span class="price">$12.99</span></li>
+        </ul>
+    </section>
+    <section class="desserts">
+        <h2>Desserts</h2>
+        <ul>
+            <li>Chocolate Cake<span class="price">$4.99</span></li>
+            <li>Cheesecake<span class="price">$5.99</span></li>
+        </ul>
+    </section>
+</body>
+</html>
